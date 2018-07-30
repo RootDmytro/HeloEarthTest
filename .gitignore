@@ -1,0 +1,22 @@
+# Mac OS X Finder
+.DS_Store
+.Trashes
+
+# Private Keys
+*.pem
+#AppCode
+.idea/
+
+# Xcode
+DerivedData/
+xcuserdata
+Pods/
+
+# build products
+build/
+*.[oa]
+
+# automatic backup files
+*~.nib
+*.swp
+*~

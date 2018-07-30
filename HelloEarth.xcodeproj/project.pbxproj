@@ -7,15 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C50EE9621070EC200F453A0 /* RRMBTilesSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50EE9521070EC200F453A0 /* RRMBTilesSource.m */; };
+		5C51D39E2109FA0000A21DE2 /* navdata.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 5C51D39B2109F8FB00A21DE2 /* navdata.mbtiles */; };
+		5C51D3A62109FE4A00A21DE2 /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465A62105EA02002290A2 /* WhirlyGlobeMaplyComponent.framework */; };
+		5C51D3A72109FE4A00A21DE2 /* WhirlyGlobeMaplyComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465A62105EA02002290A2 /* WhirlyGlobeMaplyComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C52136F210B4B3100FDB623 /* osmbasemap.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 5C52136D210B4A8F00FDB623 /* osmbasemap.mbtiles */; };
+		5C521370210B4B3B00FDB623 /* OFMA Germany Special ED.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 5C58FDDA2097141400BDD8B2 /* OFMA Germany Special ED.mbtiles */; };
+		5C5757241E37560800CB97E8 /* country_json_50m in Resources */ = {isa = PBXBuildFile; fileRef = 5C5757231E37560800CB97E8 /* country_json_50m */; };
+		5C5757261E37562D00CB97E8 /* sf_roads in Resources */ = {isa = PBXBuildFile; fileRef = 5C5757251E37562D00CB97E8 /* sf_roads */; };
 		5C5CF6971E32736400F2007E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CF6961E32736400F2007E /* main.m */; };
 		5C5CF69A1E32736400F2007E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CF6991E32736400F2007E /* AppDelegate.m */; };
 		5C5CF69D1E32736400F2007E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CF69C1E32736400F2007E /* ViewController.m */; };
 		5C5CF6A01E32736400F2007E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5CF69E1E32736400F2007E /* Main.storyboard */; };
 		5C5CF6A21E32736400F2007E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5CF6A11E32736400F2007E /* Assets.xcassets */; };
 		5C5CF6A51E32736400F2007E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5CF6A31E32736400F2007E /* LaunchScreen.storyboard */; };
+		5C5CF6B11E3285E800F2007E /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 5C5CF6B01E3285E800F2007E /* geography-class_medres.mbtiles */; };
+		5C64659D2105C0EC002290A2 /* MapzenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C525EAE20F4B45B00787168 /* MapzenSource.m */; };
+		5C6465AB2105EA66002290A2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465AA2105EA66002290A2 /* libsqlite3.tbd */; };
+		5C6465AD2105EA71002290A2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465AC2105EA71002290A2 /* libxml2.tbd */; };
+		5C6465AF2105EA7E002290A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465AE2105EA7E002290A2 /* libz.tbd */; };
+		5C6465B12105EA89002290A2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465B02105EA89002290A2 /* libc++.tbd */; };
+		5C6465B32105EA9C002290A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6465B22105EA9C002290A2 /* CoreLocation.framework */; };
+		5C6465BF2105FAFF002290A2 /* RRMBTileFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6465BE2105FAFF002290A2 /* RRMBTileFileReader.m */; };
+		5C667E811E3BB60600599314 /* RRAirport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E7E1E3BB60600599314 /* RRAirport.m */; };
+		5C667E821E3BB60600599314 /* RRAirportsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E801E3BB60600599314 /* RRAirportsDatabase.m */; };
+		5C667E871E3BB8D100599314 /* RRKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E861E3BB8D100599314 /* RRKitUtils.m */; };
+		5C667E881E3BC64900599314 /* airports.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5C667E841E3BB80800599314 /* airports.sqlite */; };
+		5C667E8B1E3BE6E100599314 /* Airways.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5C667E891E3BE6CD00599314 /* Airways.sqlite */; };
+		5C667E8C1E3BE6E100599314 /* waypoints.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5C667E8A1E3BE6CD00599314 /* waypoints.sqlite */; };
+		5C667E9F1E3BE74A00599314 /* Airways+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E901E3BE74900599314 /* Airways+Additions.m */; };
+		5C667EA01E3BE74A00599314 /* Airways.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E921E3BE74900599314 /* Airways.m */; };
+		5C667EA21E3BE74A00599314 /* Waypoints+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E961E3BE74900599314 /* Waypoints+Additions.m */; };
+		5C667EA31E3BE74A00599314 /* Waypoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E981E3BE74900599314 /* Waypoints.m */; };
+		5C667EA41E3BE74A00599314 /* RRAirwaysDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E9A1E3BE74900599314 /* RRAirwaysDatabase.m */; };
+		5C667EA61E3BE74A00599314 /* RRWaypointsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667E9E1E3BE74A00599314 /* RRWaypointsDatabase.m */; };
+		5C667EAB1E3BE82D00599314 /* RRDatabaseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667EA81E3BE82D00599314 /* RRDatabaseBase.m */; };
+		5C667EAC1E3BE82D00599314 /* RRDatabaseObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667EAA1E3BE82D00599314 /* RRDatabaseObjectBase.m */; };
+		5C667EAF1E3BEDC700599314 /* RRLocationFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C667EAE1E3BEDC700599314 /* RRLocationFormatter.m */; };
+		5C6856C01F9E3C3400FA3BF3 /* ActiveObjectAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6856BF1F9E3C3400FA3BF3 /* ActiveObjectAnimator.m */; };
+		5C77028A1F9A010700B432D5 /* ActiveMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7702891F9A010700B432D5 /* ActiveMarker.m */; };
+		5C77028D1F9A1ECE00B432D5 /* MapAircraft.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C77028C1F9A1ECE00B432D5 /* MapAircraft.m */; };
+		5C8077621E364D0300F1448A /* TileSourceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8077611E364D0300F1448A /* TileSourceLibrary.m */; };
+		5C8077651E364FFA00F1448A /* NSString+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8077641E364FFA00F1448A /* NSString+Crypto.m */; };
+		5C80776D1E365D8900F1448A /* LayerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80776C1E365D8900F1448A /* LayerTableViewController.m */; };
+		5C81872A1FAC741400EEF01F /* NSMutableArray+Synchronized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8187291FAC741400EEF01F /* NSMutableArray+Synchronized.m */; };
+		5C81872D1FAC760A00EEF01F /* MaplyVectorObject+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81872C1FAC760A00EEF01F /* MaplyVectorObject+Circle.m */; };
+		5C8187311FAC857200EEF01F /* AnimatedVectorCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8187261FAC73E500EEF01F /* AnimatedVectorCircle.m */; };
+		5CD7D2421FA3755E00312F89 /* RRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7D2411FA3755D00312F89 /* RRUtils.m */; };
+		60537DFF56BA48E9135C94A8 /* libPods-HelloEarth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC1591672DDC8C6BE8442F6 /* libPods-HelloEarth.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5C51D3A82109FE4A00A21DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6465A02105EA02002290A2 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE536FE1D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponent;
+		};
+		5C6465A52105EA02002290A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6465A02105EA02002290A2 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE536FF1D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponent;
+		};
+		5C6465A72105EA02002290A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6465A02105EA02002290A2 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE537091D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponentTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C51D3AA2109FE4A00A21DE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C51D3A72109FE4A00A21DE2 /* WhirlyGlobeMaplyComponent.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3CC1591672DDC8C6BE8442F6 /* libPods-HelloEarth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloEarth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B67F973930AAA921CA3B90 /* Pods-HelloEarth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloEarth.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloEarth/Pods-HelloEarth.release.xcconfig"; sourceTree = "<group>"; };
+		5C50EE9221070EC200F453A0 /* RRMBTilesSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMBTilesSource.h; sourceTree = "<group>"; };
+		5C50EE9521070EC200F453A0 /* RRMBTilesSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMBTilesSource.m; sourceTree = "<group>"; };
+		5C51D39B2109F8FB00A21DE2 /* navdata.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = navdata.mbtiles; sourceTree = "<group>"; };
+		5C52136D210B4A8F00FDB623 /* osmbasemap.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = osmbasemap.mbtiles; sourceTree = "<group>"; };
+		5C525EAD20F4B45B00787168 /* MapzenSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapzenSource.h; sourceTree = "<group>"; };
+		5C525EAE20F4B45B00787168 /* MapzenSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapzenSource.m; sourceTree = "<group>"; };
+		5C5757231E37560800CB97E8 /* country_json_50m */ = {isa = PBXFileReference; lastKnownFileType = folder; name = country_json_50m; path = ../Pods/WhirlyGlobeResources/vectors/country_json_50m; sourceTree = "<group>"; };
+		5C5757251E37562D00CB97E8 /* sf_roads */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sf_roads; path = ../Pods/WhirlyGlobeResources/vectors/sf_roads; sourceTree = "<group>"; };
+		5C58FDDA2097141400BDD8B2 /* OFMA Germany Special ED.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OFMA Germany Special ED.mbtiles"; sourceTree = "<group>"; };
 		5C5CF6921E32736400F2007E /* HelloEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5CF6961E32736400F2007E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C5CF6981E32736400F2007E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +117,67 @@
 		5C5CF6A11E32736400F2007E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5CF6A41E32736400F2007E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C5CF6A61E32736400F2007E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5CF6B01E3285E800F2007E /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = "geography-class_medres.mbtiles"; path = "../Pods/WhirlyGlobeResources/base_maps/geography-class_medres.mbtiles"; sourceTree = "<group>"; };
+		5C6465A02105EA02002290A2 /* WhirlyGlobeMaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WhirlyGlobeMaplyComponent.xcodeproj; path = "libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/WhirlyGlobeMaplyComponent.xcodeproj"; sourceTree = "<group>"; };
+		5C6465AA2105EA66002290A2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5C6465AC2105EA71002290A2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		5C6465AE2105EA7E002290A2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5C6465B02105EA89002290A2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5C6465B22105EA9C002290A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5C6465BB2105FAFF002290A2 /* RRMBTileFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMBTileFileReader.h; sourceTree = "<group>"; };
+		5C6465BE2105FAFF002290A2 /* RRMBTileFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMBTileFileReader.m; sourceTree = "<group>"; };
+		5C667E7D1E3BB60600599314 /* RRAirport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRAirport.h; path = airports/RRAirport.h; sourceTree = "<group>"; };
+		5C667E7E1E3BB60600599314 /* RRAirport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRAirport.m; path = airports/RRAirport.m; sourceTree = "<group>"; };
+		5C667E7F1E3BB60600599314 /* RRAirportsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRAirportsDatabase.h; path = airports/RRAirportsDatabase.h; sourceTree = "<group>"; };
+		5C667E801E3BB60600599314 /* RRAirportsDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRAirportsDatabase.m; path = airports/RRAirportsDatabase.m; sourceTree = "<group>"; };
+		5C667E841E3BB80800599314 /* airports.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = airports.sqlite; sourceTree = "<group>"; };
+		5C667E851E3BB8D100599314 /* RRKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRKitUtils.h; sourceTree = "<group>"; };
+		5C667E861E3BB8D100599314 /* RRKitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRKitUtils.m; sourceTree = "<group>"; };
+		5C667E891E3BE6CD00599314 /* Airways.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Airways.sqlite; sourceTree = "<group>"; };
+		5C667E8A1E3BE6CD00599314 /* waypoints.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = waypoints.sqlite; sourceTree = "<group>"; };
+		5C667E8F1E3BE74900599314 /* Airways+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Airways+Additions.h"; sourceTree = "<group>"; };
+		5C667E901E3BE74900599314 /* Airways+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Airways+Additions.m"; sourceTree = "<group>"; };
+		5C667E911E3BE74900599314 /* Airways.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Airways.h; sourceTree = "<group>"; };
+		5C667E921E3BE74900599314 /* Airways.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Airways.m; sourceTree = "<group>"; };
+		5C667E951E3BE74900599314 /* Waypoints+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Waypoints+Additions.h"; sourceTree = "<group>"; };
+		5C667E961E3BE74900599314 /* Waypoints+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Waypoints+Additions.m"; sourceTree = "<group>"; };
+		5C667E971E3BE74900599314 /* Waypoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoints.h; sourceTree = "<group>"; };
+		5C667E981E3BE74900599314 /* Waypoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoints.m; sourceTree = "<group>"; };
+		5C667E991E3BE74900599314 /* RRAirwaysDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAirwaysDatabase.h; sourceTree = "<group>"; };
+		5C667E9A1E3BE74900599314 /* RRAirwaysDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAirwaysDatabase.m; sourceTree = "<group>"; };
+		5C667E9D1E3BE74A00599314 /* RRWaypointsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRWaypointsDatabase.h; sourceTree = "<group>"; };
+		5C667E9E1E3BE74A00599314 /* RRWaypointsDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRWaypointsDatabase.m; sourceTree = "<group>"; };
+		5C667EA71E3BE82D00599314 /* RRDatabaseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRDatabaseBase.h; sourceTree = "<group>"; };
+		5C667EA81E3BE82D00599314 /* RRDatabaseBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRDatabaseBase.m; sourceTree = "<group>"; };
+		5C667EA91E3BE82D00599314 /* RRDatabaseObjectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRDatabaseObjectBase.h; sourceTree = "<group>"; };
+		5C667EAA1E3BE82D00599314 /* RRDatabaseObjectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRDatabaseObjectBase.m; sourceTree = "<group>"; };
+		5C667EAD1E3BEDC700599314 /* RRLocationFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRLocationFormatter.h; sourceTree = "<group>"; };
+		5C667EAE1E3BEDC700599314 /* RRLocationFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRLocationFormatter.m; sourceTree = "<group>"; };
+		5C6856BE1F9E3C3400FA3BF3 /* ActiveObjectAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveObjectAnimator.h; sourceTree = "<group>"; };
+		5C6856BF1F9E3C3400FA3BF3 /* ActiveObjectAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveObjectAnimator.m; sourceTree = "<group>"; };
+		5C7702881F9A00E900B432D5 /* ActiveMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveMarker.h; sourceTree = "<group>"; };
+		5C7702891F9A010700B432D5 /* ActiveMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveMarker.m; sourceTree = "<group>"; };
+		5C77028B1F9A1ECE00B432D5 /* MapAircraft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapAircraft.h; sourceTree = "<group>"; };
+		5C77028C1F9A1ECE00B432D5 /* MapAircraft.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAircraft.m; sourceTree = "<group>"; };
+		5C8077601E364D0300F1448A /* TileSourceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileSourceLibrary.h; sourceTree = "<group>"; };
+		5C8077611E364D0300F1448A /* TileSourceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileSourceLibrary.m; sourceTree = "<group>"; };
+		5C8077631E364FFA00F1448A /* NSString+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypto.h"; sourceTree = "<group>"; };
+		5C8077641E364FFA00F1448A /* NSString+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crypto.m"; sourceTree = "<group>"; };
+		5C8077661E36507500F1448A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5C80776B1E365D8900F1448A /* LayerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTableViewController.h; sourceTree = "<group>"; };
+		5C80776C1E365D8900F1448A /* LayerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTableViewController.m; sourceTree = "<group>"; };
+		5C8187251FAC73E500EEF01F /* AnimatedVectorCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedVectorCircle.h; sourceTree = "<group>"; };
+		5C8187261FAC73E500EEF01F /* AnimatedVectorCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedVectorCircle.m; sourceTree = "<group>"; };
+		5C8187281FAC741400EEF01F /* NSMutableArray+Synchronized.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Synchronized.h"; sourceTree = "<group>"; };
+		5C8187291FAC741400EEF01F /* NSMutableArray+Synchronized.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Synchronized.m"; sourceTree = "<group>"; };
+		5C81872B1FAC760A00EEF01F /* MaplyVectorObject+Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaplyVectorObject+Circle.h"; sourceTree = "<group>"; };
+		5C81872C1FAC760A00EEF01F /* MaplyVectorObject+Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MaplyVectorObject+Circle.m"; sourceTree = "<group>"; };
+		5CD7D2401FA3755D00312F89 /* RRUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUtils.h; sourceTree = "<group>"; };
+		5CD7D2411FA3755D00312F89 /* RRUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRUtils.m; sourceTree = "<group>"; };
+		7C4D052CD18BC2357707A207 /* Pods-RocketEarth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketEarth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RocketEarth/Pods-RocketEarth.debug.xcconfig"; sourceTree = "<group>"; };
+		7D53FC06BF2F964E2BA85DA8 /* libPods-RocketEarth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RocketEarth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96153206FF18D0EE73EE1B72 /* Pods-HelloEarth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloEarth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloEarth/Pods-HelloEarth.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7F3704C37C0350D23444AF /* Pods-RocketEarth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketEarth.release.xcconfig"; path = "Pods/Target Support Files/Pods-RocketEarth/Pods-RocketEarth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +185,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6465AB2105EA66002290A2 /* libsqlite3.tbd in Frameworks */,
+				5C6465AD2105EA71002290A2 /* libxml2.tbd in Frameworks */,
+				5C6465AF2105EA7E002290A2 /* libz.tbd in Frameworks */,
+				5C6465B12105EA89002290A2 /* libc++.tbd in Frameworks */,
+				5C6465B32105EA9C002290A2 /* CoreLocation.framework in Frameworks */,
+				60537DFF56BA48E9135C94A8 /* libPods-HelloEarth.a in Frameworks */,
+				5C51D3A62109FE4A00A21DE2 /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5757221E37554E00CB97E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C52136D210B4A8F00FDB623 /* osmbasemap.mbtiles */,
+				5C51D39B2109F8FB00A21DE2 /* navdata.mbtiles */,
+				5C58FDDA2097141400BDD8B2 /* OFMA Germany Special ED.mbtiles */,
+				5C667E841E3BB80800599314 /* airports.sqlite */,
+				5C667E891E3BE6CD00599314 /* Airways.sqlite */,
+				5C667E8A1E3BE6CD00599314 /* waypoints.sqlite */,
+				5C5CF6B01E3285E800F2007E /* geography-class_medres.mbtiles */,
+				5C5757251E37562D00CB97E8 /* sf_roads */,
+				5C5757231E37560800CB97E8 /* country_json_50m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5C5CF6891E32736400F2007E = {
 			isa = PBXGroup;
 			children = (
 				5C5CF6941E32736400F2007E /* HelloEarth */,
 				5C5CF6931E32736400F2007E /* Products */,
+				99392C94669700B2EDFBDD30 /* Pods */,
+				F8C6064AC2B93C3E2E4F3FB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +235,43 @@
 		5C5CF6941E32736400F2007E /* HelloEarth */ = {
 			isa = PBXGroup;
 			children = (
+				5C667E831E3BB60C00599314 /* Airports */,
+				5C667E8D1E3BE74900599314 /* NavigationDatabase */,
 				5C5CF6981E32736400F2007E /* AppDelegate.h */,
 				5C5CF6991E32736400F2007E /* AppDelegate.m */,
+				5C7702881F9A00E900B432D5 /* ActiveMarker.h */,
+				5C7702891F9A010700B432D5 /* ActiveMarker.m */,
+				5C8187251FAC73E500EEF01F /* AnimatedVectorCircle.h */,
+				5C8187261FAC73E500EEF01F /* AnimatedVectorCircle.m */,
+				5C6856BE1F9E3C3400FA3BF3 /* ActiveObjectAnimator.h */,
+				5C6856BF1F9E3C3400FA3BF3 /* ActiveObjectAnimator.m */,
 				5C5CF69B1E32736400F2007E /* ViewController.h */,
 				5C5CF69C1E32736400F2007E /* ViewController.m */,
+				5C525EAD20F4B45B00787168 /* MapzenSource.h */,
+				5C525EAE20F4B45B00787168 /* MapzenSource.m */,
+				5C50EE9221070EC200F453A0 /* RRMBTilesSource.h */,
+				5C50EE9521070EC200F453A0 /* RRMBTilesSource.m */,
+				5C6465BB2105FAFF002290A2 /* RRMBTileFileReader.h */,
+				5C6465BE2105FAFF002290A2 /* RRMBTileFileReader.m */,
+				5C77028B1F9A1ECE00B432D5 /* MapAircraft.h */,
+				5C77028C1F9A1ECE00B432D5 /* MapAircraft.m */,
+				5C8077601E364D0300F1448A /* TileSourceLibrary.h */,
+				5C8077611E364D0300F1448A /* TileSourceLibrary.m */,
+				5C8077631E364FFA00F1448A /* NSString+Crypto.h */,
+				5C8077641E364FFA00F1448A /* NSString+Crypto.m */,
+				5C80776B1E365D8900F1448A /* LayerTableViewController.h */,
+				5C80776C1E365D8900F1448A /* LayerTableViewController.m */,
+				5CD7D2401FA3755D00312F89 /* RRUtils.h */,
+				5CD7D2411FA3755D00312F89 /* RRUtils.m */,
+				5C8187281FAC741400EEF01F /* NSMutableArray+Synchronized.h */,
+				5C8187291FAC741400EEF01F /* NSMutableArray+Synchronized.m */,
+				5C81872B1FAC760A00EEF01F /* MaplyVectorObject+Circle.h */,
+				5C81872C1FAC760A00EEF01F /* MaplyVectorObject+Circle.m */,
 				5C5CF69E1E32736400F2007E /* Main.storyboard */,
 				5C5CF6A11E32736400F2007E /* Assets.xcassets */,
 				5C5CF6A31E32736400F2007E /* LaunchScreen.storyboard */,
 				5C5CF6A61E32736400F2007E /* Info.plist */,
+				5C5757221E37554E00CB97E8 /* Resources */,
 				5C5CF6951E32736400F2007E /* Supporting Files */,
 			);
 			path = HelloEarth;
@@ -79,6 +285,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5C6465A12105EA02002290A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6465A62105EA02002290A2 /* WhirlyGlobeMaplyComponent.framework */,
+				5C6465A82105EA02002290A2 /* WhirlyGlobeMaplyComponentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C667E831E3BB60C00599314 /* Airports */ = {
+			isa = PBXGroup;
+			children = (
+				5C667E851E3BB8D100599314 /* RRKitUtils.h */,
+				5C667E861E3BB8D100599314 /* RRKitUtils.m */,
+				5C667E7D1E3BB60600599314 /* RRAirport.h */,
+				5C667E7E1E3BB60600599314 /* RRAirport.m */,
+				5C667E7F1E3BB60600599314 /* RRAirportsDatabase.h */,
+				5C667E801E3BB60600599314 /* RRAirportsDatabase.m */,
+			);
+			name = Airports;
+			sourceTree = "<group>";
+		};
+		5C667E8D1E3BE74900599314 /* NavigationDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				5C667EAD1E3BEDC700599314 /* RRLocationFormatter.h */,
+				5C667EAE1E3BEDC700599314 /* RRLocationFormatter.m */,
+				5C667E8E1E3BE74900599314 /* Model */,
+				5C667E991E3BE74900599314 /* RRAirwaysDatabase.h */,
+				5C667E9A1E3BE74900599314 /* RRAirwaysDatabase.m */,
+				5C667E9D1E3BE74A00599314 /* RRWaypointsDatabase.h */,
+				5C667E9E1E3BE74A00599314 /* RRWaypointsDatabase.m */,
+				5C667EA71E3BE82D00599314 /* RRDatabaseBase.h */,
+				5C667EA81E3BE82D00599314 /* RRDatabaseBase.m */,
+				5C667EA91E3BE82D00599314 /* RRDatabaseObjectBase.h */,
+				5C667EAA1E3BE82D00599314 /* RRDatabaseObjectBase.m */,
+			);
+			path = NavigationDatabase;
+			sourceTree = "<group>";
+		};
+		5C667E8E1E3BE74900599314 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C667E8F1E3BE74900599314 /* Airways+Additions.h */,
+				5C667E901E3BE74900599314 /* Airways+Additions.m */,
+				5C667E911E3BE74900599314 /* Airways.h */,
+				5C667E921E3BE74900599314 /* Airways.m */,
+				5C667E951E3BE74900599314 /* Waypoints+Additions.h */,
+				5C667E961E3BE74900599314 /* Waypoints+Additions.m */,
+				5C667E971E3BE74900599314 /* Waypoints.h */,
+				5C667E981E3BE74900599314 /* Waypoints.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99392C94669700B2EDFBDD30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96153206FF18D0EE73EE1B72 /* Pods-HelloEarth.debug.xcconfig */,
+				56B67F973930AAA921CA3B90 /* Pods-HelloEarth.release.xcconfig */,
+				7C4D052CD18BC2357707A207 /* Pods-RocketEarth.debug.xcconfig */,
+				FA7F3704C37C0350D23444AF /* Pods-RocketEarth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8C6064AC2B93C3E2E4F3FB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C6465B22105EA9C002290A2 /* CoreLocation.framework */,
+				5C6465B02105EA89002290A2 /* libc++.tbd */,
+				5C6465AE2105EA7E002290A2 /* libz.tbd */,
+				5C6465AC2105EA71002290A2 /* libxml2.tbd */,
+				5C6465AA2105EA66002290A2 /* libsqlite3.tbd */,
+				5C6465A02105EA02002290A2 /* WhirlyGlobeMaplyComponent.xcodeproj */,
+				5C8077661E36507500F1448A /* Security.framework */,
+				3CC1591672DDC8C6BE8442F6 /* libPods-HelloEarth.a */,
+				7D53FC06BF2F964E2BA85DA8 /* libPods-RocketEarth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,13 +374,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C5CF6A91E32736400F2007E /* Build configuration list for PBXNativeTarget "HelloEarth" */;
 			buildPhases = (
+				69C1DB8D9B81EA71620337E7 /* [CP] Check Pods Manifest.lock */,
 				5C5CF68E1E32736400F2007E /* Sources */,
 				5C5CF68F1E32736400F2007E /* Frameworks */,
 				5C5CF6901E32736400F2007E /* Resources */,
+				60F7F4FA1516DA6B57B05466 /* [CP] Embed Pods Frameworks */,
+				C6B28EF1267A254BAAD98EDC /* [CP] Copy Pods Resources */,
+				5C51D3AA2109FE4A00A21DE2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C51D3A92109FE4A00A21DE2 /* PBXTargetDependency */,
 			);
 			name = HelloEarth;
 			productName = HelloEarth;
@@ -126,6 +419,12 @@
 			mainGroup = 5C5CF6891E32736400F2007E;
 			productRefGroup = 5C5CF6931E32736400F2007E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5C6465A12105EA02002290A2 /* Products */;
+					ProjectRef = 5C6465A02105EA02002290A2 /* WhirlyGlobeMaplyComponent.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5C5CF6911E32736400F2007E /* HelloEarth */,
@@ -133,12 +432,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		5C6465A62105EA02002290A2 /* WhirlyGlobeMaplyComponent.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WhirlyGlobeMaplyComponent.framework;
+			remoteRef = 5C6465A52105EA02002290A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C6465A82105EA02002290A2 /* WhirlyGlobeMaplyComponentTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WhirlyGlobeMaplyComponentTests.xctest;
+			remoteRef = 5C6465A72105EA02002290A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		5C5CF6901E32736400F2007E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C521370210B4B3B00FDB623 /* OFMA Germany Special ED.mbtiles in Resources */,
+				5C52136F210B4B3100FDB623 /* osmbasemap.mbtiles in Resources */,
+				5C51D39E2109FA0000A21DE2 /* navdata.mbtiles in Resources */,
+				5C667E8B1E3BE6E100599314 /* Airways.sqlite in Resources */,
+				5C667E8C1E3BE6E100599314 /* waypoints.sqlite in Resources */,
+				5C667E881E3BC64900599314 /* airports.sqlite in Resources */,
+				5C5CF6B11E3285E800F2007E /* geography-class_medres.mbtiles in Resources */,
+				5C5757241E37560800CB97E8 /* country_json_50m in Resources */,
 				5C5CF6A51E32736400F2007E /* LaunchScreen.storyboard in Resources */,
+				5C5757261E37562D00CB97E8 /* sf_roads in Resources */,
 				5C5CF6A21E32736400F2007E /* Assets.xcassets in Resources */,
 				5C5CF6A01E32736400F2007E /* Main.storyboard in Resources */,
 			);
@@ -146,18 +471,491 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60F7F4FA1516DA6B57B05466 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloEarth/Pods-HelloEarth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C1DB8D9B81EA71620337E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloEarth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B28EF1267A254BAAD98EDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloEarth/Pods-HelloEarth-resources.sh",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/geography-class_medres.mbtiles",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_0x0.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_0x1.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_1x0.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_1x1.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_2x0.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_2x1.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_3x0.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_3x1.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_4x0.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_4x1.pvrtc",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb/lowres_wtb_info.plist",
+				"${PODS_ROOT}/WhirlyGlobeResources/elevation/world_web_mercator.sqlite",
+				"${PODS_ROOT}/WhirlyGlobeResources/LICENSE",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/airfield-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/airport-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/alcohol-shop-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/america-football-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/art-gallery-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/bakery-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/bank-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/bar-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/baseball-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/basketball-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/beer-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/bicycle-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/building-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/bus-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/cafe-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/camera-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/campsite-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/car-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/cemetery-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/cinema-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/circle-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/circle-stroked-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/city-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/clothing-store-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/college-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/commercial-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/cricket-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/cross-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/dam-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/danger-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/disability-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/dog-park-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/embassy-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/emergency-telephone-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/farm-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/fast-food-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/ferry-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/fire-station-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/fuel-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/garden-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/golf-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/grocery-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/harbor-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/heliport-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/hospital-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/industrial-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/land-use-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/laundry-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/library-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/lighthouse-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/lodging-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/logging-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/london-underground-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/marker-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/marker-stroked-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/minefield-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/monument-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/museum-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/music-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/oil-well-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/park-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/park2-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/parking-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/parking-garage-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/pharmacy-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/pitch-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/place-of-worship-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/playground-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/police-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/polling-place-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/post-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/prison-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/rail-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/rail-above-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/rail-underground-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/religious-christian-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/religious-jewish-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/religious-muslim-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/restaurant-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/roadblock-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/rocket-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/school-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/shop-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/skiing-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/slaughterhouse-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/soccer-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/square-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/square-stroked-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/star-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/star-stroked-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/suitcase-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/swimming-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/telephone-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/tennis-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/theatre-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/toilets-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/town-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/town-hall-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/triangle-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/triangle-stroked-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/village-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/warehouse-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/waste-basket-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/water-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/wetland-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons/zoo-24@2x.png",
+				"${PODS_ROOT}/WhirlyGlobeResources/mapbox vectors/osm-bright.xml",
+				"${PODS_ROOT}/WhirlyGlobeResources/mapzen vectors/MapzenStyles.json",
+				"${PODS_ROOT}/WhirlyGlobeResources/README.md",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ABW.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AFG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AGO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AIA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ALA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ALB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AND.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ARE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ARG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ARM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ASM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ATA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ATF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ATG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AUS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AUT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/AZE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BDI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BEL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BEN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BES.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BFA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BGD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BGR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BHR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BHS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BIH.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BLM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BLR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BLZ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BMU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BOL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BRA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BRB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BRN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BTN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BVT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/BWA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CAF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CAN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CCK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CHE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CHL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CHN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CIV.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CMR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/COD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/COG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/COK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/COL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/COM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CPV.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CRI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CUB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CUW.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CXR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CYM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CYP.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/CZE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/DEU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/DJI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/DMA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/DNK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/DOM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/DZA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ECU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/EGY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ERI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ESH.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ESP.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/EST.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ETH.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/FIN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/FJI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/FLK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/FRA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/FRO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/FSM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GAB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GBR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GEO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GGY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GHA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GIB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GIN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GLP.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GMB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GNB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GNQ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GRC.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GRD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GRL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GTM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GUF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GUM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/GUY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/HKG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/HMD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/HND.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/HRV.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/HTI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/HUN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IDN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IMN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IND.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IOT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IRL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IRN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/IRQ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ISL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ISR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ITA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/JAM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/JEY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/JOR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/JPN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KAZ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KEN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KGZ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KHM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KIR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KNA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KOR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/KWT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LAO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LBN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LBR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LBY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LCA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LIE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LKA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LSO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LTU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LUX.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/LVA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MAC.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MAF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MAR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MCO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MDA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MDG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MDV.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MEX.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MHL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MKD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MLI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MLT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MMR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MNE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MNG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MNP.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MOZ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MRT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MSR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MTQ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MUS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MWI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MYS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/MYT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NAM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NCL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NER.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NFK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NGA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NIC.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NIU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NLD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NOR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NPL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NRU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/NZL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/OMN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PAK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PAN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PCN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PER.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PHL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PLW.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PNG.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/POL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PRI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PRK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PRT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PRY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PSE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/PYF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/QAT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/REU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ROU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/RUS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/RWA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SAU.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SDN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SEN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SGP.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SGS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SHN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SJM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SLB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SLE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SLV.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SMR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SOM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SPM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SRB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SSD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/STP.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SUR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SVK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SVN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SWE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SWZ.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SXM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SYC.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/SYR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TCA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TCD.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TGO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/THA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TJK.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TKL.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TKM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TLS.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TON.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TTO.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TUN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TUR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TUV.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TWN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/TZA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/UGA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/UKR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/UMI.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/URY.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/USA.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/UZB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VAT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VCT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VEN.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VGB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VIR.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VNM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/VUT.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/WLF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/WSM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/YEM.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ZAF.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ZMB.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m/ZWE.geojson",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads/tl_2013_06075_roads.dbf",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads/tl_2013_06075_roads.mbr",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads/tl_2013_06075_roads.prj",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads/tl_2013_06075_roads.shp",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads/tl_2013_06075_roads.shx",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads/tl_2013_06075_roads.sqlite",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps",
+				"${PODS_ROOT}/WhirlyGlobeResources/base_maps/lowres_wtb",
+				"${PODS_ROOT}/WhirlyGlobeResources/elevation",
+				"${PODS_ROOT}/WhirlyGlobeResources/maki icons",
+				"${PODS_ROOT}/WhirlyGlobeResources/mapbox vectors",
+				"${PODS_ROOT}/WhirlyGlobeResources/mapzen vectors",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/country_json_50m",
+				"${PODS_ROOT}/WhirlyGlobeResources/vectors/sf_roads",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloEarth/Pods-HelloEarth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C5CF68E1E32736400F2007E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C667EA61E3BE74A00599314 /* RRWaypointsDatabase.m in Sources */,
+				5C667EA01E3BE74A00599314 /* Airways.m in Sources */,
+				5C8077651E364FFA00F1448A /* NSString+Crypto.m in Sources */,
+				5C667EAF1E3BEDC700599314 /* RRLocationFormatter.m in Sources */,
+				5C667EA31E3BE74A00599314 /* Waypoints.m in Sources */,
 				5C5CF69D1E32736400F2007E /* ViewController.m in Sources */,
+				5C77028D1F9A1ECE00B432D5 /* MapAircraft.m in Sources */,
+				5C667EAC1E3BE82D00599314 /* RRDatabaseObjectBase.m in Sources */,
+				5C667E811E3BB60600599314 /* RRAirport.m in Sources */,
+				5CD7D2421FA3755E00312F89 /* RRUtils.m in Sources */,
+				5C6465BF2105FAFF002290A2 /* RRMBTileFileReader.m in Sources */,
+				5C667E871E3BB8D100599314 /* RRKitUtils.m in Sources */,
 				5C5CF69A1E32736400F2007E /* AppDelegate.m in Sources */,
+				5C667EA21E3BE74A00599314 /* Waypoints+Additions.m in Sources */,
+				5C8187311FAC857200EEF01F /* AnimatedVectorCircle.m in Sources */,
+				5C667E821E3BB60600599314 /* RRAirportsDatabase.m in Sources */,
+				5C667E9F1E3BE74A00599314 /* Airways+Additions.m in Sources */,
+				5C8077621E364D0300F1448A /* TileSourceLibrary.m in Sources */,
+				5C77028A1F9A010700B432D5 /* ActiveMarker.m in Sources */,
 				5C5CF6971E32736400F2007E /* main.m in Sources */,
+				5C6856C01F9E3C3400FA3BF3 /* ActiveObjectAnimator.m in Sources */,
+				5C50EE9621070EC200F453A0 /* RRMBTilesSource.m in Sources */,
+				5C81872D1FAC760A00EEF01F /* MaplyVectorObject+Circle.m in Sources */,
+				5C667EA41E3BE74A00599314 /* RRAirwaysDatabase.m in Sources */,
+				5C81872A1FAC741400EEF01F /* NSMutableArray+Synchronized.m in Sources */,
+				5C64659D2105C0EC002290A2 /* MapzenSource.m in Sources */,
+				5C80776D1E365D8900F1448A /* LayerTableViewController.m in Sources */,
+				5C667EAB1E3BE82D00599314 /* RRDatabaseBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C51D3A92109FE4A00A21DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WhirlyGlobeMaplyComponent;
+			targetProxy = 5C51D3A82109FE4A00A21DE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C5CF69E1E32736400F2007E /* Main.storyboard */ = {
@@ -271,10 +1069,35 @@
 		};
 		5C5CF6AA1E32736400F2007E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96153206FF18D0EE73EE1B72 /* Pods-HelloEarth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PG9STJK3SB;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/boost\"",
+					"\"${PODS_ROOT}/eigen\"",
+					"\"${PODS_ROOT}/clipper\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"\"${PODS_ROOT}/boost\"",
+					"\"${PODS_ROOT}/clipper/\"",
+					"$(PODS_ROOT)/eigen",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/SMCalloutView\"",
+					"\"${PODS_ROOT}/Headers/Public/WhirlyGlobe\"",
+					"\"${PODS_ROOT}/Headers/Public/WhirlyGlobeResources\"",
+					"\"${PODS_ROOT}/Headers/Public/boost\"",
+					"\"${PODS_ROOT}/Headers/Public/clipper\"",
+					"\"${PODS_ROOT}/Headers/Public/eigen\"",
+					"\"${PODS_ROOT}/Headers/Public/libjson\"",
+					"\"${PODS_ROOT}/Headers/Public/proj4\"",
+					"\"${PODS_ROOT}/Headers/Public/tinyxml\"",
+					"\"$(SRCROOT)/libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/include\"",
+				);
 				INFOPLIST_FILE = HelloEarth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yar.HelloEarth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +1106,35 @@
 		};
 		5C5CF6AB1E32736400F2007E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B67F973930AAA921CA3B90 /* Pods-HelloEarth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PG9STJK3SB;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/boost\"",
+					"\"${PODS_ROOT}/eigen\"",
+					"\"${PODS_ROOT}/clipper\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"\"${PODS_ROOT}/boost\"",
+					"\"${PODS_ROOT}/clipper/\"",
+					"$(PODS_ROOT)/eigen",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/SMCalloutView\"",
+					"\"${PODS_ROOT}/Headers/Public/WhirlyGlobe\"",
+					"\"${PODS_ROOT}/Headers/Public/WhirlyGlobeResources\"",
+					"\"${PODS_ROOT}/Headers/Public/boost\"",
+					"\"${PODS_ROOT}/Headers/Public/clipper\"",
+					"\"${PODS_ROOT}/Headers/Public/eigen\"",
+					"\"${PODS_ROOT}/Headers/Public/libjson\"",
+					"\"${PODS_ROOT}/Headers/Public/proj4\"",
+					"\"${PODS_ROOT}/Headers/Public/tinyxml\"",
+					"\"$(SRCROOT)/libs/WhirlyGlobeMaply/ios/library/WhirlyGlobe-MaplyComponent/include\"",
+				);
 				INFOPLIST_FILE = HelloEarth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yar.HelloEarth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +1160,7 @@
 				5C5CF6AB1E32736400F2007E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
